@@ -112,8 +112,8 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |---|---|---|
-| Surname, First Name | | |
-| Surname, First Name | | |
+| Ferry, Angel | | |
+| Perez, Arian | | |
 
 ## Notebook links
 
