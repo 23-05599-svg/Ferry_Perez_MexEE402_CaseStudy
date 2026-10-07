@@ -102,7 +102,6 @@ No notebook files, no datasets. Just the README with your links.
 
 Copy this, fill it in, and push it:
 
-```markdown
 # MexEE 402: Data Preprocessing Case Study
 
 MexEE Elective 2: Data Science and Machine Learning
@@ -120,9 +119,9 @@ Batangas State University, Alangilan Campus
 
 | Chapter | Member 1 | Member 2 |
 |---|---|---|
-| Ch1_2_3 | [link]() | [link]() |
-| Ch4 | [link]() | [link]() |
-| Ch5 | [link]() | [link]() |
+| Ch1_2_3 | [link](https://colab.research.google.com/drive/1IAtqDpyBZDepFwcWsKyTG-SAvM8Vv42m?usp=drive_link) | [link]() |
+| Ch4 | [link](https://colab.research.google.com/drive/1hR1Tv728fIelwVvkmFJGVddGqrl9sPEb?usp=drive_link) | [link]() |
+| Ch5 | [link](https://colab.research.google.com/drive/1jAWZzGnT59laK09-nJ_btySfwO9-6WML?usp=drive_link) | [link]() |
 | Ch6 | [link]() | [link]() |
 | Ch7 | [link]() | [link]() |
 | Ch8 | [link]() | [link]() |
@@ -146,9 +145,7 @@ Hiding it is.
 ## References
 
 McKinney, W. (2021). Python for Data Analysis, 3rd ed. O'Reilly.
-VanderPlas, J. Python Data Science Handbook.
-Any other page or article you used.
-```
+
 
 ---
 
