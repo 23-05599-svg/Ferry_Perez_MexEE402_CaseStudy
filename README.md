@@ -112,8 +112,8 @@ Batangas State University, Alangilan Campus
 
 | Name | Student Number | Section |
 |---|---|---|
-| Ferry, Angel | | |
-| Perez, Arian | | |
+| Ferry, Angel | 23-05599 | MeXE-4102 |
+| Perez, Arian | 23-05600 | MeXE-4102 |
 
 ## Notebook links
 
