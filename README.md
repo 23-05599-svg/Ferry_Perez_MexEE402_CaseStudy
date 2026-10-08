@@ -146,7 +146,6 @@ Hiding it is.
 
 McKinney, W. (2021). Python for Data Analysis, 3rd ed. O'Reilly.
 
-
 ---
 
 ## 7. Chapter questions
