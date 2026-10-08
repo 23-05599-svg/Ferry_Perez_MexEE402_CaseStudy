@@ -35,7 +35,7 @@ You already have your pair. Work with that partner only.
 
 ---
 
-## 3. Setting up your Colab notebooks
+## 3. Setting up your Collab notebooks
 
 For each of the seven notebooks:
 
@@ -131,6 +131,29 @@ Batangas State University, Alangilan Campus
 
 One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
 you and what surprised you. Not what the library does, but what you understood.
+
+## Chapter 1_2_3:
+
+
+## Chapter 4:
+
+## Chapter 5:
+
+## Chapter 6: Dealing with Outliers
+
+# One thing I understood from this chapter is that outliers can make the data look different from what is normally expected. I learned that Z-score and IQR can be used to find these unusual values. What surprised me was that even just one extreme value can affect the data, so it should not be ignored.
+
+## Chapter 7: Feature Selection
+
+# What I learned here is that having many features does not always mean having better data for analysis. Some features may not be useful, so it is important to choose the ones that are more related to the result. I was surprised that the different feature selection methods could give different selected features even though they were applied to the same dataset.
+
+## Chapter 8: Constructing a Preprocessing Pipeline
+
+# After going through this chapter, I understood why preprocessing steps need to be arranged properly. Missing values need to be handled first before scaling the data, and the steps should follow a clear order. What surprised me was how organizing the process into one pipeline can make the whole process easier to manage and repeat.
+
+## Chapter 9: Real-World Application: Data Preprocessing
+
+# The most important thing I got from this chapter is how the different preprocessing techniques can be applied together to a real dataset. I learned that a dataset may need cleaning, transformation, encoding, and scaling before it can be properly analyzed. I was surprised by how many steps are needed just to prepare the data before making visualizations or using it for further analysis.
 
 ## Errors we found
 
