@@ -1,3 +1,5 @@
+<div align="justify" style="font-size:16px; line-height:1.6;">
+
 # MexEE 402: Data Preprocessing Case Study
 
 **MexEE Elective 2: Data Science and Machine Learning**
@@ -49,8 +51,10 @@ For each of the seven notebooks:
 5. Do your edits and write your answers in that copy.
 6. Before you submit, click **Runtime, then Restart session and run all.** If it crashes, fix it.
 
+<div align="center">
+   
 The seven notebooks:
-
+   
 | Notebook | Topic |
 |---|---|
 | Ch1_2_3 | Introduction to preprocessing, exploring and cleaning data |
@@ -60,6 +64,8 @@ The seven notebooks:
 | Ch7 | Feature selection |
 | Ch8 | Constructing a preprocessing pipeline |
 | Ch9 | Full pipeline and visualization |
+
+</div>
 
 ---
 
@@ -110,13 +116,19 @@ Batangas State University, Alangilan Campus
 
 ## Members
 
+<div align="center">
+   
 | Name | Student Number | Section |
 |---|---|---|
 | Ferry, Angel | 23-05599 | MeXE-4102 |
 | Perez, Arian | 23-05600 | MeXE-4102 |
 
+</div>
+
 ## Notebook links
 
+<div align="center">
+   
 | Chapter | Member 1 | Member 2 |
 |---|---|---|
 | Ch1_2_3 | [link](https://colab.research.google.com/drive/1IAtqDpyBZDepFwcWsKyTG-SAvM8Vv42m?usp=drive_link) | [link]() |
@@ -127,10 +139,9 @@ Batangas State University, Alangilan Campus
 | Ch8 | [link]() | [link](https://colab.research.google.com/drive/1-aftFS7bVEbsbNfrklIVQm_YoJWNUQIO#scrollTo=WvVI6L6B0plh) |
 | Ch9 | [link]() | [link](https://colab.research.google.com/drive/1Rbkn4N8yxFMCyzHnHWq1gidfvsrSjTXt#scrollTo=yTQHON9929h7) |
 
-## What we learned
+</div>
 
-One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
-you and what surprised you. Not what the library does, but what you understood.
+## What we learned
 
 ## Chapter 1_2_3:
 
@@ -141,24 +152,52 @@ you and what surprised you. Not what the library does, but what you understood.
 
 ## Chapter 6: Dealing with Outliers
 
-# One thing I understood from this chapter is that outliers can make the data look different from what is normally expected. I learned that Z-score and IQR can be used to find these unusual values. What surprised me was that even just one extreme value can affect the data, so it should not be ignored.
+One thing I understood from this chapter is that outliers can make the data look different from what is normally expected. I learned that Z-score and IQR can be used to find these unusual values. What surprised me was that even just one extreme value can affect the data, so it should not be ignored.
 
 ## Chapter 7: Feature Selection
 
-# What I learned here is that having many features does not always mean having better data for analysis. Some features may not be useful, so it is important to choose the ones that are more related to the result. I was surprised that the different feature selection methods could give different selected features even though they were applied to the same dataset.
+What I learned here is that having many features does not always mean having better data for analysis. Some features may not be useful, so it is important to choose the ones that are more related to the result. I was surprised that the different feature selection methods could give different selected features even though they were applied to the same dataset.
 
 ## Chapter 8: Constructing a Preprocessing Pipeline
 
-# After going through this chapter, I understood why preprocessing steps need to be arranged properly. Missing values need to be handled first before scaling the data, and the steps should follow a clear order. What surprised me was how organizing the process into one pipeline can make the whole process easier to manage and repeat.
+After going through this chapter, I understood why preprocessing steps need to be arranged properly. Missing values need to be handled first before scaling the data, and the steps should follow a clear order. What surprised me was how organizing the process into one pipeline can make the whole process easier to manage and repeat.
 
 ## Chapter 9: Real-World Application: Data Preprocessing
 
-# The most important thing I got from this chapter is how the different preprocessing techniques can be applied together to a real dataset. I learned that a dataset may need cleaning, transformation, encoding, and scaling before it can be properly analyzed. I was surprised by how many steps are needed just to prepare the data before making visualizations or using it for further analysis.
+The most important thing I got from this chapter is how the different preprocessing techniques can be applied together to a real dataset. I learned that a dataset may need cleaning, transformation, encoding, and scaling before it can be properly analyzed. I was surprised by how many steps are needed just to prepare the data before making visualizations or using it for further analysis.
+
 
 ## Errors we found
 
 List any mistake you found in the original notebooks, and the correct version.
 There are real ones in there. Finding them earns points.
+
+## Errors we found
+
+## Chapter 1_2_3:
+
+
+## Chapter 4:
+
+## Chapter 5:
+
+## Chapter 6: Dealing with Outliers
+
+The notebook used a Z-score cutoff of -3 to 3 for identifying outliers. However, the value 100 had a Z-score of about 2.615, so it does not qualify as an outlier using the stated Z-score cutoff. The value 100 is identified as an outlier using the IQR method instead. The correct version is to state that 100 is an outlier according to the IQR method, but not according to the given Z-score cutoff.
+
+## Chapter 7: Feature Selection
+
+The filter method included **Final Grade** as a selected feature because its correlation with itself is 1.0. However, Final Grade is the target variable, so it should not be included as an input feature. The correct selected input features are **Study Hours, Assignments Completed, and Class Participation**.
+
+The RFECV section also produced an **UndefinedMetricWarning** because the dataset has only a small number of samples while using 5-fold cross-validation. Some test folds can contain only one sample, making the R² score undefined. A larger dataset or a smaller number of folds would be more appropriate.
+
+## Chapter 8: Constructing a Preprocessing Pipeline
+
+No major error was found in Chapter 8. The pipeline correctly performs imputation before scaling, and the ColumnTransformer applies the preprocessing steps to the **Age** and **Fare** columns.
+
+## Chapter 9: Real-World Application: Data Preprocessing
+
+There is a small inconsistency between the explanation and the actual code. The notebook initially describes **Sex** and **Embarked** as categorical features, but the actual preprocessing code also includes **Pclass**. The correct description should therefore identify **Pclass, Embarked, and Sex** as the categorical features used in the preprocessing pipeline.
 
 ## Note on AI tools
 
@@ -248,7 +287,7 @@ Be ready to defend your work in class. I will ask either member about any chapte
 Deductions:
 
 - A notebook that will not run from a restarted session: **minus 5** each.
-- A Colab link I cannot open: **minus 5** each.
+- A Collab link I cannot open: **minus 5** each.
 - An answer with no number in it where the question asked for one: **minus 2** each.
 
 ---
