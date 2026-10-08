@@ -141,7 +141,7 @@ Batangas State University, Alangilan Campus
 
 </div>
 
-## What we learned
+# What we learned
 
 ## Chapter 1_2_3:
 
@@ -167,12 +167,8 @@ After going through this chapter, I understood why preprocessing steps need to b
 The most important thing I got from this chapter is how the different preprocessing techniques can be applied together to a real dataset. I learned that a dataset may need cleaning, transformation, encoding, and scaling before it can be properly analyzed. I was surprised by how many steps are needed just to prepare the data before making visualizations or using it for further analysis.
 
 
-## Errors we found
 
-List any mistake you found in the original notebooks, and the correct version.
-There are real ones in there. Finding them earns points.
-
-## Errors we found
+# Errors we found
 
 ## Chapter 1_2_3:
 
@@ -201,8 +197,11 @@ There is a small inconsistency between the explanation and the actual code. The 
 
 ## Note on AI tools
 
-Say whether you used an AI tool, and what for. This is not a penalty.
-Hiding it is.
+- Member 1 – Ferry, Angel: Used ChatGPT as a learning and writing support tool during the preparation of this case study. It was used to help understand some of the concepts discussed in the chapters, clarify difficult parts of the lessons, and understand parts of the Python code used in the notebooks. ChatGPT was also used to check the grammar and clarity of some answers. The explanations and suggested answers were reviewed to make sure they were understood and appropriate for the case study.
+
+- Member 2 – Perez, Arian: Used ChatGPT to help understand some of the topics and Python code, especially when certain concepts, functions, or parts of the code were difficult to understand. ChatGPT was also used to check grammar, improve the clarity of some responses, and organize and format the README.md file. The AI was used as a guide to better understand the lessons and code, rather than simply copying the responses. The information and explanations were reviewed before submission.
+
+Both members acknowledge the use of ChatGPT in completing this case study. The AI tool was mainly used for learning support, understanding Python code and concepts, checking written responses, and improving the organization and presentation of the work. Both members reviewed the material and made an effort to understand the content before submitting the case study.
 
 ## References
 
