@@ -71,7 +71,7 @@ The most important thing we got from this chapter is how the different preproces
 
 ## Chapter 1_2_3:
 <p align="justify">
-**Limitation:** This is not really a coding error, but if we forget to upload the file, the notebook will show an error. We noticed that when we run the Colab notebook again at a different time, it sometimes cannot find the `vgsales.csv` file anymore. We tried using Google Drive, and it works for me, but when I shared the notebook with my partner, she couldn't run it because the file was not in her own Drive.
+This is not really a coding error, but if we forget to upload the file, the notebook will show an error. We noticed that when we run the Colab notebook again at a different time, it sometimes cannot find the `vgsales.csv` file anymore. We tried using Google Drive, and it works for me, but when I shared the notebook with my partner, she couldn't run it because the file was not in her own Drive.
 
 For now, we can just upload the CSV file again whenever it is missing before running the notebook.
 </p>  
