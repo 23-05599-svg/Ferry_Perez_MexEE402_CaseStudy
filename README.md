@@ -74,20 +74,6 @@ Limitation: We noticed that when we run the Colab notebook again at a different 
 For now, we can just upload the CSV file again whenever it is missing before running the notebook.
 </p>  
 
-## Chapter 4:
-
-## Chapter 5:
-
-## Chapter 6: Dealing with Outliers
-
-
-## Chapter 7: Feature Selection
-
-
-## Chapter 8: Constructing a Preprocessing Pipeline
-
-## Chapter 9: Real-World Application: Data Preprocessing
-
 ## Note on AI tools
 
 - Member 1 – Ferry, Angel: Used ChatGPT as a learning and writing support tool during the preparation of this case study. It was used to help understand some of the concepts discussed in the chapters, clarify difficult parts of the lessons, and understand parts of the Python code used in the notebooks. ChatGPT was also used to check the grammar and clarity of some answers. The explanations and suggested answers were reviewed to make sure they were understood and appropriate for the case study.
