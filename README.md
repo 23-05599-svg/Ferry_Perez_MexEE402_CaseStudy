@@ -171,7 +171,11 @@ The most important thing we got from this chapter is how the different preproces
 # Errors we found
 
 ## Chapter 1_2_3:
+<p align="justify">
+Limitation: I noticed that when I run my Colab notebook again at a different time, it sometimes cannot find the vgsales.csv file anymore. I tried using Google Drive, and it works for me, but when I shared the notebook with my partner, she couldn't run it because the file was not in her own Drive.
 
+For now, we can just upload the CSV file again whenever it is missing before running the notebook.
+</p>  
 
 ## Chapter 4:
 
