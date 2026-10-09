@@ -179,21 +179,13 @@ The most important thing I got from this chapter is how the different preprocess
 
 ## Chapter 6: Dealing with Outliers
 
-The notebook used a Z-score cutoff of -3 to 3 for identifying outliers. However, the value 100 had a Z-score of about 2.615, so it does not qualify as an outlier using the stated Z-score cutoff. The value 100 is identified as an outlier using the IQR method instead. The correct version is to state that 100 is an outlier according to the IQR method, but not according to the given Z-score cutoff.
 
 ## Chapter 7: Feature Selection
 
-The filter method included **Final Grade** as a selected feature because its correlation with itself is 1.0. However, Final Grade is the target variable, so it should not be included as an input feature. The correct selected input features are **Study Hours, Assignments Completed, and Class Participation**.
-
-The RFECV section also produced an **UndefinedMetricWarning** because the dataset has only a small number of samples while using 5-fold cross-validation. Some test folds can contain only one sample, making the R² score undefined. A larger dataset or a smaller number of folds would be more appropriate.
 
 ## Chapter 8: Constructing a Preprocessing Pipeline
 
-No major error was found in Chapter 8. The pipeline correctly performs imputation before scaling, and the ColumnTransformer applies the preprocessing steps to the **Age** and **Fare** columns.
-
 ## Chapter 9: Real-World Application: Data Preprocessing
-
-There is a small inconsistency between the explanation and the actual code. The notebook initially describes **Sex** and **Embarked** as categorical features, but the actual preprocessing code also includes **Pclass**. The correct description should therefore identify **Pclass, Embarked, and Sex** as the categorical features used in the preprocessing pipeline.
 
 ## Note on AI tools
 
