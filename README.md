@@ -85,5 +85,5 @@ Both members acknowledge the use of ChatGPT in completing this case study. The A
 ## References
 
 McKinney, W. (2021). Python for Data Analysis, 3rd ed. O'Reilly.
-
+VanderPlas, J. Python Data Science Handbook.
 
