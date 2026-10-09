@@ -144,26 +144,31 @@ Batangas State University, Alangilan Campus
 # What we learned
 
 ## Chapter 1_2_3:
-
+<p align="justify">
+We learned that cleaning and preparing the dataset is important before starting the analysis. By checking missing values, removing duplicates, and dropping unnecessary columns, we can make the data more organized and easier to work with. This also helps avoid problems in the next steps and makes the analysis easier to understand.
 
 ## Chapter 4:
-
+<p align="justify">
+We learned that feature engineering is important because it helps us make raw data more useful for analysis and machine learning. We can create new features, group numerical values into categories, and convert categorical data into numbers. We also learned that choosing the right method depends on the type of data and what we want to analyze. These steps help us understand the data better and may help machine learning models find patterns.
+   
 ## Chapter 5:
+<p align="justify">
+We learned that scaling is important when features have different ranges of values. We also learned the difference between StandardScaler and MinMaxScaler and that choosing whether to scale depends on the data and the machine learning algorithm.
 
 ## Chapter 6: Dealing with Outliers
-
+<p align="justify">
 One thing we understood from this chapter is that outliers can make the data look different from what is normally expected. We learned that Z-score and IQR can be used to find these unusual values. What surprised us was that even just one extreme value can affect the data, so it should not be ignored.
 
 ## Chapter 7: Feature Selection
-
+<p align="justify">
 What we learned here is that having many features does not always mean having better data for analysis. Some features may not be useful, so it is important to choose the ones that are more related to the result. We was surprised that the different feature selection methods could give different selected features even though they were applied to the same dataset.
 
 ## Chapter 8: Constructing a Preprocessing Pipeline
-
+<p align="justify">
 After going through this chapter, We understood why preprocessing steps need to be arranged properly. Missing values need to be handled first before scaling the data, and the steps should follow a clear order. What surprised us was how organizing the process into one pipeline can make the whole process easier to manage and repeat.
 
 ## Chapter 9: Real-World Application: Data Preprocessing
-
+<p align="justify">
 The most important thing we got from this chapter is how the different preprocessing techniques can be applied together to a real dataset. We learned that a dataset may need cleaning, transformation, encoding, and scaling before it can be properly analyzed. We was surprised by how many steps are needed just to prepare the data before making visualizations or using it for further analysis.
 
 
