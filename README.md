@@ -28,9 +28,9 @@ Batangas State University, Alangilan Campus
 | Ch1_2_3 | [link](https://colab.research.google.com/drive/1IAtqDpyBZDepFwcWsKyTG-SAvM8Vv42m?usp=drive_link) |
 | Ch4 | [link](https://colab.research.google.com/drive/1hR1Tv728fIelwVvkmFJGVddGqrl9sPEb?usp=drive_link) | 
 | Ch5 | [link](https://colab.research.google.com/drive/1jAWZzGnT59laK09-nJ_btySfwO9-6WML?usp=drive_link) | 
-| Ch6 | [link](https://colab.research.google.com/drive/1eqfcCMH229sIk6yFuUSWju7z-r2yBwPT#scrollTo=qiJyocjtpDlQ&uniqifier=1) |
-| Ch7 | [link](https://colab.research.google.com/drive/1OKsf-hAbyWPoAPCAqVWDNehOq9smQ8MM#scrollTo=XHW68TdQwB4z) |
-| Ch8 | [link](https://colab.research.google.com/drive/1-aftFS7bVEbsbNfrklIVQm_YoJWNUQIO#scrollTo=WvVI6L6B0plh) |
+| Ch6 | [[link](https://colab.research.google.com/drive/1eqfcCMH229sIk6yFuUSWju7z-r2yBwPT?usp=sharing) | 
+| Ch7 | [link](https://colab.research.google.com/drive/1OKsf-hAbyWPoAPCAqVWDNehOq9smQ8MM?usp=sharing) | 
+| Ch8 | [link](https://colab.research.google.com/drive/1-aftFS7bVEbsbNfrklIVQm_YoJWNUQIO?usp=sharing) |
 | Ch9 | [link](https://colab.research.google.com/drive/1Rbkn4N8yxFMCyzHnHWq1gidfvsrSjTXt#scrollTo=yTQHON9929h7) |
 
 </div>
