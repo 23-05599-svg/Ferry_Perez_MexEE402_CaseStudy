@@ -100,10 +100,4 @@ Both members acknowledge the use of ChatGPT in completing this case study. The A
 
 McKinney, W. (2021). Python for Data Analysis, 3rd ed. O'Reilly.
 
----
 
-Copying another pair's answers is academic dishonesty and goes to the department.
-
----
-
-*Prepared by Engr. Mikko De Torres, Department of Electronics Engineering*
